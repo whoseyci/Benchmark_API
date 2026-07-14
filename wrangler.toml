@@ -1,4 +1,4 @@
-name = "arena-capability-benchmark"
+name = "benchmark-api"
 main = "cloudflare_worker.js"
 compatibility_date = "2026-06-22"
 
