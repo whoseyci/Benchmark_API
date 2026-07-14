@@ -1,0 +1,5 @@
+name = "arena-capability-benchmark"
+main = "cloudflare_worker.js"
+compatibility_date = "2026-06-22"
+
+# Set with: wrangler secret put BENCH_SECRET
