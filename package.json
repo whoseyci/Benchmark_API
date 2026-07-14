@@ -1,0 +1,15 @@
+{
+  "name": "arena-capability-benchmark-api",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test.mjs",
+    "check": "node --check cloudflare_worker.js && node test.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.24.0"
+  }
+}
